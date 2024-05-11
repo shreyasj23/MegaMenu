@@ -1,0 +1,108 @@
+
+.navbar-brand img {
+    max-width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    text-align: center;
+}
+
+
+/* On smaller screens */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        max-width: 100px;
+    }
+}
+
+.navbar.sticky-top {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+  }
+
+  /* Center-align on desktop */
+  @media (min-width: 992px) {
+    .navbar-nav {
+      justify-content: center;
+    }
+  }
+
+  /* Left-align on mobile */
+  @media (max-width: 991.98px) {
+    .navbar-nav {
+      justify-content: flex-start;
+    }
+  }
+
+  
+  .nav-item .nav-link img {
+    height:  10vh;
+    width: auto;
+  }
+/* Center-align on desktop */
+    @media (min-width: 992px) {
+      .navbar-nav {
+        justify-content: center;
+      }
+    }
+
+    /* Left-align on mobile */
+    @media (max-width: 991.98px) {
+      .navbar-nav {
+        justify-content: flex-start;
+      }
+    }
+
+  
+    /* Additional styles for nav and brand */
+    @media (min-width: 768px) {
+      .navbar-brand {
+        padding: 20px;
+      }
+    }
+
+    .navbar-brand svg:hover {
+      fill: #0056b3;
+    }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+        background-color: #f9f6f2;
+}
+
+  
+  .card-body p {
+    margin-bottom: 0;
+    font-size: large;
+
+  }
+
+h3,h4 {
+    color: rgb(0, 91, 228);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 150px;
+  }
+
+.nav-item.dropdown:hover .dropdown-menu > section{
+    display: block;
+}
+
+.nav-item.dropdown .dropdown-menu > section{
+    display: none;
+}
+
+
+
+
+
